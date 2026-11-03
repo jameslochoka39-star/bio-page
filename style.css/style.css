@@ -1,0 +1,21 @@
+
+:root {
+    --primary: red;
+    --text-color: white;
+}
+
+body {
+display: flex;  flex-wrap: wrap;  gap: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    /* CSS rules go here */
+    body {
+        background: var(--text-color);
+    }
+}
